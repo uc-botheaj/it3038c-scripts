@@ -28,7 +28,7 @@ Hello this is my secret message
 
 Example Output: 
 ```bash
-it3038c-scripts> python /project1/mc2code/encoder-ring.py
+it3038c-scripts> python project1/mc2code/encoder-ring.py
 Enter key ("'s' for silver, 'r' for red, 'b' for black, 'p' for purple ")
 s
 Enter secret message (letters and spaces only, please)
