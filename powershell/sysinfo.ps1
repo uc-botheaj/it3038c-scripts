@@ -1,6 +1,3 @@
-
-#$Hello = "Hello, PowerShell!" 
-#Write-Host($Hello) 
 function getIP {
     (Get-NetIPAddress).IPv4Address | Select-String "192*"
 }

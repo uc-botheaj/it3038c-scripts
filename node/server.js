@@ -17,7 +17,7 @@ var server = http.createServer(function (req, res) {
     }
     else if (req.url.match("/sysinfo")) {
         myHostName=os.hostname();
-        html = `
+        html = ` 
         <!DOCTYPE html>
             <html>
             <head>
