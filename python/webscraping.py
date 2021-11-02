@@ -1,3 +1,4 @@
+#!/Users/ajbothe/venv/webscraping/bin/python
 from bs4 import BeautifulSoup
 import requests, re
 
